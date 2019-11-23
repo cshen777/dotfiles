@@ -1,0 +1,5 @@
+#!/bin/bash
+xrandr --output eDP-1 --auto
+
+sed -i "s/^Xft.dpi: 96.*/Xft.dpi: 192/" ~/.Xresources
+

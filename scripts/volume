@@ -1,0 +1,6 @@
+#!/bin/bash
+# get volume
+
+echo "adjust volume"
+
+exec "alsamixer"

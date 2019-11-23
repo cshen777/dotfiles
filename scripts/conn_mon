@@ -1,0 +1,6 @@
+#!/bin/bash
+
+#connect external monitor
+xrandr --output DP-2 --auto --same-as eDP-1
+
+sed -i "s/^Xft.dpi: 192.*/Xft.dpi: 96/" ~/.Xresources
